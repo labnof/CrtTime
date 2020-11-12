@@ -30,7 +30,7 @@ public class ShowCurrentTime extends AnAction {
 
     public static void showNotification(AnActionEvent e, String data) {
         NotificationGroup STICKY_GROUP = new NotificationGroup("demo.notifications.balloon",
-                NotificationDisplayType.STICKY_BALLOON, true);
+                NotificationDisplayType.BALLOON, true);
 
         Notification msg = STICKY_GROUP.createNotification(
                 "Current Time", "", data,
